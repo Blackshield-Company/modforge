@@ -58,6 +58,7 @@ class PluginParserTests(unittest.TestCase):
             self.assertEqual(plugin.records[0].edid, "CMP_Value")
             self.assertEqual(plugin.records[0].formid, formid)
 
+    @unittest.skipUnless((ROOT / "reference" / "esp_check.py").is_file(), "reference/ not present (gitignored)")
     def test_reference_esp_check_accepts_synthetic(self):
         from tempfile import TemporaryDirectory
 
