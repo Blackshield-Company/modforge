@@ -1,0 +1,88 @@
+{
+  "vanilla": [
+    "Skyrim.esm",
+    "Update.esm",
+    "Dawnguard.esm",
+    "HearthFires.esm",
+    "Dragonborn.esm"
+  ],
+  "plugins": [
+    {
+      "file": "BlackshieldCompany.esp",
+      "name": "Blackshield Company",
+      "prefix": "BSC_",
+      "masters": ["Skyrim.esm"],
+      "edits_vanilla": false
+    },
+    {
+      "file": "BountiesOfOblivion.esp",
+      "name": "Bounties of Oblivion",
+      "prefix": "BOO_",
+      "masters": ["Skyrim.esm"],
+      "edits_vanilla": false
+    },
+    {
+      "file": "ContractHunter.esp",
+      "name": "Contract Hunter",
+      "prefix": "CHT_",
+      "masters": ["Skyrim.esm"],
+      "edits_vanilla": false
+    },
+    {
+      "file": "SteelOath.esp",
+      "name": "Steel Oath",
+      "prefix": "SOT_",
+      "masters": ["Skyrim.esm"],
+      "edits_vanilla": false
+    },
+    {
+      "file": "EmberSmithing.esp",
+      "name": "Ember Smithing",
+      "prefix": "EMB_",
+      "masters": ["Skyrim.esm"],
+      "edits_vanilla": false
+    },
+    {
+      "file": "GrayManeDebt.esp",
+      "name": "The Gray-Mane Debt",
+      "prefix": "GMD_",
+      "masters": ["Skyrim.esm"],
+      "edits_vanilla": false
+    },
+    {
+      "file": "BlackshieldCodex.esp",
+      "name": "Blackshield Codex",
+      "prefix": "BCX_",
+      "masters": [
+        "Skyrim.esm",
+        "BlackshieldCompany.esp",
+        "BountiesOfOblivion.esp",
+        "ContractHunter.esp",
+        "SteelOath.esp",
+        "EmberSmithing.esp"
+      ],
+      "edits_vanilla": false
+    },
+    {
+      "file": "WarBanners.esp",
+      "name": "War Banners",
+      "prefix": "WBN_",
+      "masters": ["Skyrim.esm"],
+      "edits_vanilla": false
+    },
+    {
+      "file": "Roadwarden.esp",
+      "name": "Roadwarden",
+      "prefix": "RWD_",
+      "masters": ["Skyrim.esm"],
+      "edits_vanilla": false
+    },
+    {
+      "file": "SellswordRoster.esp",
+      "name": "Sellsword Roster",
+      "prefix": "SSR_",
+      "masters": ["Skyrim.esm"],
+      "edits_vanilla": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "modforge"
+version = "0.1.0"
+description = "Free Skyrim-on-Linux load order and conflict checker"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [{name = "synthalorian", email = "blackshield@mail.grokbot.com"}]
+requires-python = ">=3.9"
+keywords = ["skyrim", "modding", "linux"]
+classifiers = [
+    "Environment :: Console",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+]
+
+[project.scripts]
+modforge = "modforge.cli:cli_entry"
+
+[tool.setuptools.packages.find]
+include = ["modforge*"]
