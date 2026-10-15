@@ -1,3 +1,5 @@
+![modforge](.github/preview.png)
+
 # Modforge
 
 Free Skyrim Special Edition load-order and conflict checker for Linux. Point it at a Proton prefix or a Data folder. It reads `plugins.txt` / `loadorder.txt` and plugin headers, then reports missing masters, masters loaded after a dependent, ESL flags that do not match the FormID range, duplicate editor-ID prefixes, script name collisions, and plugins that override the same FormID. It does not modify the game.
